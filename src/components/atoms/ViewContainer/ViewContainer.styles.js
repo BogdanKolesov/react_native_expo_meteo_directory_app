@@ -5,6 +5,6 @@ export const Container = styled.ScrollView`
     height: auto;
     padding: 5%;
     padding-top: 2%;
-
-    
+    background-color: #fff;
+    min-height: 100%;
 `

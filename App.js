@@ -1,52 +1,36 @@
 import { StatusBar } from 'expo-status-bar';
 import { View, Text } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
-import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import { Common, Home, Observer, Synoptic } from './components/views';
-import { Ionicons } from 'react-native-vector-icons'
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import { navigationData } from './src/data/navigationData';
+import AppLoading from 'expo-app-loading';
+import { useFonts, Roboto_400Regular, Roboto_700Bold, Roboto_100Thin } from '@expo-google-fonts/roboto';
 
 
-const Tab = createBottomTabNavigator();
+const Stack = createNativeStackNavigator()
 
 export default function App() {
+  let [fontsLoaded] = useFonts({
+    Roboto_400Regular,
+    Roboto_700Bold,
+    Roboto_100Thin
+  });
 
-  const options = {
-    headerShown: false
+  if (!fontsLoaded) {
+    return <AppLoading />;
   }
   return (
-    <NavigationContainer >
-      <Tab.Navigator
-        initialRouteName="Home"
-        screenOptions={({ route }) => ({
-          tabBarIcon: ({ focused, color, size }) => {
-            let iconName;
-
-            if (route.name === 'Home') {
-              iconName = focused
-                ? 'home'
-                : 'home-outline';
-            } else if (route.name === 'Observer') {
-              iconName = focused ? 'eye-sharp' : 'eye-outline';
-            } else if (route.name === 'Synoptic') {
-              iconName = focused ? 'thunderstorm' : 'thunderstorm-outline';
-            } else if (route.name === 'Common') {
-              iconName = focused ? 'earth' : 'earth-outline';
-            }
-
-            // You can return any component that you like here!
-            return <Ionicons name={iconName} size={size} color={color} />;
-          },
-        })}
-        tabBarOptions={{
-          activeTintColor: '#BFA130',
-          inactiveTintColor: '#2C17B1',
-        }}
-      >
-        <Tab.Screen options={options} name="Home" component={Home} />
-        <Tab.Screen options={options} name="Observer" component={Observer} />
-        <Tab.Screen options={options} name="Synoptic" component={Synoptic} />
-        <Tab.Screen options={options} name="Common" component={Common} />
-      </Tab.Navigator>
+    <NavigationContainer>
+      <Stack.Navigator>
+        {navigationData.map((data, index) => (
+          <Stack.Screen
+            key={index}
+            name={data.name}
+            component={data.component}
+            options={data.options}
+          />
+        ))}
+      </Stack.Navigator>
     </NavigationContainer>
   );
 }
