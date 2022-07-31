@@ -7,4 +7,5 @@ export const Container = styled.ScrollView`
     padding-top: 2%;
     background-color: #fff;
     min-height: 100%;
+    position: relative;
 `

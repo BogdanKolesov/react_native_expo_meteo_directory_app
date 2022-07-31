@@ -1,14 +1,17 @@
 import React from 'react';
-import { View, StyleSheet } from 'react-native';
+import { View, Text, StatusBar } from 'react-native';
+import { ViewContainer } from '../../atoms';
 
 const Synoptic = () => {
     return (
         <View>
-
+            <StatusBar />
+            <ViewContainer>
+                <Text>Синоптик</Text>
+            </ViewContainer>
         </View>
     );
 }
 
-const styles = StyleSheet.create({})
 
 export default Synoptic;

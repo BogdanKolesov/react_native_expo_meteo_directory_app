@@ -7,7 +7,7 @@ const Home = () => {
         <View>
             <StatusBar />
             <ViewContainer>
-                <Text>Hello!</Text>
+                <Text>Home</Text>
             </ViewContainer>
         </View>
     );

@@ -1,5 +1,6 @@
 import React from 'react';
 import { View, StyleSheet } from 'react-native';
+import DevLogo from '../DevLogo';
 import { Container } from './ViewContainer.styles';
 
 const ViewContainer = ({ children }) => {
@@ -7,6 +8,7 @@ const ViewContainer = ({ children }) => {
         <Container contentContainerStyle={{
             flexDirection: 'column'
         }}>
+            <DevLogo />
             {children}
         </Container>
     );

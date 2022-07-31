@@ -5,7 +5,7 @@ import { Logo } from './DevLogo.styles';
 const DevLogo = () => {
     return (
         <Logo>
-            created by Kolesov.dev
+            created by kolesov.dev
         </Logo>
     );
 }
