@@ -1,4 +1,2 @@
 import DirectoryLink from "./DirectoryLink";
-export {
-    DirectoryLink
-}
+export default DirectoryLink
