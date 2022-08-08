@@ -1,4 +1,7 @@
 import DirectoryLink from "./DirectoryLink";
+import ItemLink from "./ItemLink";
+
 export {
-    DirectoryLink
+    DirectoryLink,
+    ItemLink
 }

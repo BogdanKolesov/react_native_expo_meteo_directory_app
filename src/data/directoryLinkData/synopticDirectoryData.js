@@ -1,4 +1,4 @@
-import { cyklon, front } from "../../constants/images";
+import { cyklon, front, mi8, forecast, thunder } from "../../constants/images";
 
 export const synopticDirectoryData = [
     {
@@ -17,19 +17,19 @@ export const synopticDirectoryData = [
         title: 'Методы прогнозирования',
         description: 'Прогнозирование явлений погоды',
         link: 'NotExist',
-        backgroundImage: ''
+        backgroundImage: thunder
     },
     ,
     {
         title: 'Минимумы воздушных судов',
         description: 'Минимумы воздушных судов для обеспечения полётов',
         link: 'NotExist',
-        backgroundImage: ''
+        backgroundImage: mi8
     },
     {
         title: 'Другое',
         description: 'Дополнительная информация',
         link: 'NotExist',
-        backgroundImage: ''
+        backgroundImage: forecast
     }
 ]
