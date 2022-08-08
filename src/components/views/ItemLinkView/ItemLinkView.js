@@ -16,6 +16,5 @@ const ItemLinkView = ({ linkItem }) => {
     );
 }
 
-const styles = StyleSheet.create({})
 
 export default ItemLinkView;

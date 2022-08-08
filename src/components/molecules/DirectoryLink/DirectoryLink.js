@@ -17,7 +17,7 @@ const DirectoryLink = ({ data }) => {
     return (
         <DirectoryLinkContainer
             activeOpacity={0.6}
-            onPress={() => navigation.navigate(data.link)}>
+            onPress={() => navigation.navigate(data.link, { item: data.prop })}>
             <DirectoryLinkBackgroundImage source={data.backgroundImage} />
             <DarkBackground />
             <DirectoryLinkText>

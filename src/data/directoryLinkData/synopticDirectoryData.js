@@ -1,10 +1,12 @@
 import { cyklon, front, mi8, forecast, thunder } from "../../constants/images";
+import { synoptikLinkData } from "../itemLinkData";
 
 export const synopticDirectoryData = [
     {
         title: 'Фронты',
         description: 'Прогнозирование фронтов',
         link: 'NotExist',
+        prop: synoptikLinkData,
         backgroundImage: front
     },
     {
