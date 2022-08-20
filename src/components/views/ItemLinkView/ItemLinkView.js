@@ -1,17 +1,17 @@
 import React from 'react';
 import { ViewContainter } from '../../atoms'
-import { LinkItem } from '../../molecules'
+import { ItemLink } from '../../molecules';
 
-const ItemLinkView = ({ linkItem }) => {
+const ItemLinkView = () => {
+    const linkItem = [
+        {
+            title: 'ЖОПА',
+            link: 'NotExist'
+        }
+    ]
     return (
         <ViewContainter>
-            {
-                linkItem.map((item, index) => {
-                    return (
-                        <linkItem item={item} />
-                    )
-                })
-            }
+
         </ViewContainter>
     );
 }

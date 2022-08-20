@@ -1,4 +1,5 @@
 import { AppWrapper, NotExist } from "../components/views";
+import ItemLinkView from "../components/views/ItemLinkView/ItemLinkView";
 
 export const navigationData = [
     {
@@ -9,6 +10,11 @@ export const navigationData = [
     {
         name: 'NotExist',
         component: NotExist,
+        options: { headerShown: false }
+    },
+    {
+        name: 'ItemLinkView',
+        component: ItemLinkView,
         options: { headerShown: false }
     },
 ]

@@ -5,8 +5,8 @@ export const synopticDirectoryData = [
     {
         title: 'Фронты',
         description: 'Прогнозирование фронтов',
-        link: 'NotExist',
-        prop: synoptikLinkData,
+        link: 'ItemLinkView',
+        items: synoptikLinkData,
         backgroundImage: front
     },
     {
