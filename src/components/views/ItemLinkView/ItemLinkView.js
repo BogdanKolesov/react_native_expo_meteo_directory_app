@@ -11,7 +11,13 @@ const ItemLinkView = () => {
     ]
     return (
         <ViewContainter>
-
+            {
+                linkItem.map((item, index) => {
+                    return (
+                        <ItemLink key={index} item={item} />
+                    )
+                })
+            }
         </ViewContainter>
     );
 }
