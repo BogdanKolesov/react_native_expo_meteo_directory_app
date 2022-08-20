@@ -1,3 +1,4 @@
+import { useRoute } from '@react-navigation/native';
 import React from 'react';
 import { View, Text, StatusBar } from 'react-native';
 import ViewContainer from '../../atoms/ViewContainer/ViewContainer';
@@ -7,9 +8,9 @@ const Home = () => {
         <View>
             <StatusBar />
             <ViewContainer>
-                <Text>Home</Text>
+                <Text>HOME</Text>
             </ViewContainer>
-        </View>
+        </View >
     );
 }
 

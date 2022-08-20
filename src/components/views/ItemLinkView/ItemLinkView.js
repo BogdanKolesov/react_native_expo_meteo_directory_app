@@ -1,24 +1,24 @@
-import React from 'react';
-import { ViewContainter } from '../../atoms'
+import React, { useEffect } from 'react';
+import { StatusBar, Text, View } from 'react-native';
+import { ViewContainer, ViewTitle } from '../../atoms'
 import { ItemLink } from '../../molecules';
 
-const ItemLinkView = () => {
-    const linkItem = [
-        {
-            title: 'ЖОПА',
-            link: 'NotExist'
-        }
-    ]
+const ItemLinkView = ({ route }) => {
+    const { items, title } = route.params
+
     return (
-        <ViewContainter>
-            {
-                linkItem.map((item, index) => {
+        <ViewContainer>
+            <ViewTitle>
+                {title}
+            </ViewTitle>
+            <View>
+                {items.map((item, index) => {
                     return (
                         <ItemLink key={index} item={item} />
                     )
-                })
-            }
-        </ViewContainter>
+                })}
+            </View>
+        </ViewContainer>
     );
 }
 
