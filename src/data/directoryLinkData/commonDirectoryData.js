@@ -5,8 +5,7 @@ export const commonDirectoryData = [
     {
         title: 'Атлас облаков',
         description: 'Виды, форма и классификация облаков',
-        link: 'ItemLinkView',
-        items: synoptikLinkData,
+        link: 'CloudAtlas',
         backgroundImage: cloudAtlas
     },
     {

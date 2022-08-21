@@ -7,6 +7,14 @@ import forestFire from '../assets/images/directoryData/forestFire.jpg'
 import meteo from '../assets/images/directoryData/meteo.jpg'
 import weather from '../assets/images/directoryData/weather.jpg'
 import cloudAtlas from '../assets/images/directoryData/cloudAtlas.jpg'
+import cirrus from '../assets/images/cloudAtlas/cirrus.jpg'
+import altoCumulus from '../assets/images/cloudAtlas/altoCumulus.jpg'
+import fog from '../assets/images/cloudAtlas/fog.jpg'
+import altoStratus from '../assets/images/cloudAtlas/altoStratus.jpg'
+import forecastClouds from '../assets/images/cloudAtlas/forecastClouds.jpg'
+import cumuloNimbus from '../assets/images/cloudAtlas/cumuloNimbus.jpg'
+
+
 
 export {
     cyklon,
@@ -17,6 +25,11 @@ export {
     forestFire,
     meteo,
     weather,
-    cloudAtlas
-
+    cloudAtlas,
+    cirrus,
+    altoCumulus,
+    fog,
+    forecastClouds,
+    altoStratus,
+    cumuloNimbus
 }
