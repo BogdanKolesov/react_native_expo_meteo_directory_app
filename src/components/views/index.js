@@ -4,6 +4,7 @@ import Observer from "./Observer";
 import Common from "./Common";
 import AppWrapper from "./AppWrapper";
 import NotExist from "./NotExist/NotExist";
+import ArticleView from "./ArticleView";
 
 export {
     Home,
@@ -11,5 +12,6 @@ export {
     Observer,
     Common,
     AppWrapper,
-    NotExist
+    NotExist,
+    ArticleView
 }
