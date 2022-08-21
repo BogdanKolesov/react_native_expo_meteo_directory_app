@@ -59,7 +59,7 @@ export const cloudAtlasData = [
     },
     {
         title: 'Облака вертикального развиния',
-        description: 'Нижняя раница - 200-100м, вергняя границы 3-8км',
+        description: 'Нижняя раница - 200-100м, верхняя границы 3-8км',
         backgroundImage: cumuloNimbus,
         clouds: [
             {
