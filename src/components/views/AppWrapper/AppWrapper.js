@@ -40,7 +40,7 @@ const AppWrapper = () => {
                     return <Ionicons name={iconName} size={size} color={color} />;
                 },
             })}
-            tabBarOptions={{
+            options={{
                 activeTintColor: '#BFA130',
                 inactiveTintColor: '#5E4BD8',
             }}

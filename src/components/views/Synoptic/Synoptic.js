@@ -1,9 +1,8 @@
 import React from 'react';
-import { View, Text, StatusBar, Image } from 'react-native';
+import { View, StatusBar } from 'react-native';
 import { ViewContainer, ViewTitle } from '../../atoms';
 import { synopticDirectoryData } from '../../../data/directoryLinkData'
 import { DirectoryLink } from '../../molecules/';
-import { cyklon } from '../../../constants/images';
 
 const Synoptic = () => {
     return (

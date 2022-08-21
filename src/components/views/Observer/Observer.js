@@ -1,13 +1,22 @@
 import React from 'react';
-import { View, Text, StatusBar } from 'react-native';
-import { ViewContainer } from '../../atoms';
+import { View, StatusBar } from 'react-native';
+import { ViewContainer, ViewTitle } from '../../atoms';
+import { synopticDirectoryData } from '../../../data/directoryLinkData'
+import { DirectoryLink } from '../../molecules/';
 
 const Observer = () => {
     return (
         <View>
             <StatusBar />
             <ViewContainer>
-                <Text>Метеонаблюдатель</Text>
+                <ViewTitle>Статьи для метеонаблюдателей</ViewTitle>
+                {
+                    synopticDirectoryData.map((data, index) => {
+                        return (
+                            <DirectoryLink key={index} data={data} />
+                        )
+                    })
+                }
             </ViewContainer>
         </View>
     );
