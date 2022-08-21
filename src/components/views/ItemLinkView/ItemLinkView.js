@@ -4,13 +4,22 @@ import { ViewContainer, ViewTitle } from '../../atoms'
 import { ItemLink } from '../../molecules';
 
 const ItemLinkView = ({ route }) => {
-    const { items, title } = route.params
+    const { items, title, content } = route.params
 
     return (
         <ViewContainer>
+
             <ViewTitle>
                 {title}
             </ViewTitle>
+            {
+                content ?
+                    (
+                        <View>
+                            {content}
+                        </View>
+                    ) : null
+            }
             <View>
                 {items.map((item, index) => {
                     return (

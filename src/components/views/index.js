@@ -5,6 +5,7 @@ import Common from "./Common";
 import AppWrapper from "./AppWrapper";
 import NotExist from "./NotExist/NotExist";
 import ArticleView from "./ArticleView";
+import CloudAtlas from "./CloudAtlas";
 
 export {
     Home,
@@ -13,5 +14,6 @@ export {
     Common,
     AppWrapper,
     NotExist,
-    ArticleView
+    ArticleView,
+    CloudAtlas
 }

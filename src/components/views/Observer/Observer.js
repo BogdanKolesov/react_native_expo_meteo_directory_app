@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, StatusBar } from 'react-native';
 import { ViewContainer, ViewTitle } from '../../atoms';
-import { synopticDirectoryData } from '../../../data/directoryLinkData'
+import { observerDirectoryData } from '../../../data/directoryLinkData'
 import { DirectoryLink } from '../../molecules/';
 
 const Observer = () => {
@@ -11,7 +11,7 @@ const Observer = () => {
             <ViewContainer>
                 <ViewTitle>Статьи для метеонаблюдателей</ViewTitle>
                 {
-                    synopticDirectoryData.map((data, index) => {
+                    observerDirectoryData.map((data, index) => {
                         return (
                             <DirectoryLink key={index} data={data} />
                         )

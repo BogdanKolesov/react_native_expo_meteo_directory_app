@@ -40,9 +40,9 @@ const AppWrapper = () => {
                     return <Ionicons name={iconName} size={size} color={color} />;
                 },
             })}
-            options={{
-                activeTintColor: '#BFA130',
-                inactiveTintColor: '#5E4BD8',
+            tabBarOptions={{
+                activeTintColor: '#228B22',
+                inactiveTintColor: '#0000FF',
             }}
         >
             <Tab.Screen name="Главная" component={Home} />
