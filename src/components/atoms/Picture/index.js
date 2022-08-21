@@ -1,1 +1,2 @@
-import Picture from "./Picture";
+import { Picture } from "./Picture";
+export default Picture 

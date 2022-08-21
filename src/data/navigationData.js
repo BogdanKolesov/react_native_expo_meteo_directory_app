@@ -1,4 +1,4 @@
-import { AppWrapper, CloudAtlas, NotExist } from "../components/views";
+import { AppWrapper, ArticleView, CloudAtlas, NotExist } from "../components/views";
 import ItemLinkView from "../components/views/ItemLinkView/ItemLinkView";
 
 export const navigationData = [
@@ -20,6 +20,11 @@ export const navigationData = [
     {
         name: 'CloudAtlas',
         component: CloudAtlas,
+        options: { headerShown: false }
+    },
+    {
+        name: 'ArticleView',
+        component: ArticleView,
         options: { headerShown: false }
     },
 ]

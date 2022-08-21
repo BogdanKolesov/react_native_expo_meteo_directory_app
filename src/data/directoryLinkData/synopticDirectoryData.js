@@ -1,4 +1,4 @@
-import { Text } from "react-native";
+import { Paragraph } from "../../components/atoms";
 import { cyklon, front, mi8, forecast, thunder } from "../../constants/images";
 import { forecastsData, frontsData, synopticItemsData, mininumData } from "../itemLinkData/synopticLinkData";
 
@@ -21,6 +21,11 @@ export const synopticDirectoryData = [
         title: 'Методы прогнозирования',
         description: 'Прогнозирование явлений погоды',
         items: forecastsData,
+        content: (
+            <Paragraph big >
+                Метеорологический калькулятор Вы можете найти в моём приложении <Paragraph big bold>"Meteo calculation app"</Paragraph>
+            </Paragraph>
+        ),
         link: 'ItemLinkView',
         backgroundImage: thunder
     },
@@ -30,9 +35,9 @@ export const synopticDirectoryData = [
         description: 'Ограничения воздушных судов при обеспечении полётов',
         link: 'ItemLinkView',
         content: (
-            <Text>
+            <Paragraph>
                 Ограничения по ветру, температуре, влажности и тд.
-            </Text>
+            </Paragraph>
         ),
         items: mininumData,
         backgroundImage: mi8

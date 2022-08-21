@@ -1,6 +1,7 @@
 import React from 'react';
-import { View, StatusBar, Text } from 'react-native';
-import { ViewContainer, ViewTitle } from '../../atoms';
+import { View, StatusBar, Text, Image } from 'react-native';
+import { meteo, thunder, weather } from '../../../constants/images';
+import { Paragraph, Picture, ViewContainer, ViewTitle } from '../../atoms';
 import { StyledText } from './Home.styles';
 
 
@@ -18,6 +19,7 @@ const Home = () => {
 
                     </Text>
                 </StyledText>
+                <Picture source={thunder} />
             </ViewContainer>
         </View>
     );

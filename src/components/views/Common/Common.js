@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, StatusBar } from 'react-native';
-import { ViewContainer, ViewTitle } from '../../atoms';
+import { Paragraph, ViewContainer, ViewTitle } from '../../atoms';
 import { commonDirectoryData } from '../../../data/directoryLinkData'
 import { DirectoryLink } from '../../molecules/';
 
