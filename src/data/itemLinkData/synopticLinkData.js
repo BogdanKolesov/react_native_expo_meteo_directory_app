@@ -1,7 +1,10 @@
+import { Paragraph } from "../../components/atoms";
+
 export const frontsData = [
     {
         title: 'Холодный фронт',
-        link: 'coldFront'
+        link: 'coldFront',
+        content: (<Paragraph>Hello, world!d</Paragraph>)
     },
     {
         title: 'Тёплый фронт',

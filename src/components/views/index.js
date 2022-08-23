@@ -7,6 +7,7 @@ import NotExist from "./NotExist/NotExist";
 import ArticleView from "./ArticleView";
 import CloudAtlas from "./CloudAtlas";
 import CloudSubAtlas from './CloudSubAtlas'
+import Article from "./Article";
 
 export {
     Home,
@@ -17,5 +18,6 @@ export {
     NotExist,
     ArticleView,
     CloudAtlas,
-    CloudSubAtlas
+    CloudSubAtlas,
+    Article
 }
