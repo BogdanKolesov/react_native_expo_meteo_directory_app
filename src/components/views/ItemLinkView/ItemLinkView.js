@@ -1,5 +1,5 @@
-import React, { useEffect } from 'react';
-import { StatusBar, Text, View } from 'react-native';
+import React from 'react';
+import { View } from 'react-native';
 import { ViewContainer, ViewTitle } from '../../atoms'
 import { ItemLink } from '../../molecules';
 
@@ -8,7 +8,6 @@ const ItemLinkView = ({ route }) => {
 
     return (
         <ViewContainer>
-
             <ViewTitle>
                 {title}
             </ViewTitle>

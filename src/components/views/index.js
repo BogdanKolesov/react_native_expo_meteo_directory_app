@@ -8,6 +8,7 @@ import ArticleView from "./ArticleView";
 import CloudAtlas from "./CloudAtlas";
 import CloudSubAtlas from './CloudSubAtlas'
 import Article from "./Article";
+import ItemLinkView from './ItemLinkView'
 
 export {
     Home,
@@ -19,5 +20,6 @@ export {
     ArticleView,
     CloudAtlas,
     CloudSubAtlas,
-    Article
+    Article,
+    ItemLinkView
 }

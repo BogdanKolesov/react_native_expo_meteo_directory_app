@@ -1,9 +1,8 @@
 import React from 'react';
-import { View, StyleSheet } from 'react-native';
 import { ViewContainer, ViewTitle } from '../../atoms';
 
 const ArticleView = ({ route, navigation }) => {
-    const { title, conetnt } = route.params
+    const { title, content } = route.params
 
     return (
         <ViewContainer>
@@ -14,7 +13,5 @@ const ArticleView = ({ route, navigation }) => {
         </ViewContainer>
     );
 }
-
-const styles = StyleSheet.create({})
 
 export default ArticleView;

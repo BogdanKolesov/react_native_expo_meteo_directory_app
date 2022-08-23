@@ -1,5 +1,7 @@
 import { View } from "react-native";
-import { altoCumulus, altoStratus, cirrus, cumuloNimbus, fog, forecastClouds, meteo } from "../../constants/images";
+import { Paragraph, Picture } from "../../components/atoms";
+import { altoCumulus, altoStratus, cirrus, cirrusFibratus, cumuloNimbus, fog, forecastClouds, meteo } from "../../constants/images";
+import { CirrusFibratus } from "../contentData/cloudContentData/heightClouds";
 
 export const cloudAtlasData = [
     {
@@ -9,14 +11,13 @@ export const cloudAtlasData = [
         link: 'CloudSubAtlas',
         items: [
             {
-                title: 'Cirrus - Перистые',
-                description: 'Такие облака',
-                height: '6-10 км',
-                backgroundImage: meteo,
+                title: 'Перистые волокнистые - Cirrus fibratus (Ci fib)',
+                link: 'ArticleView',
+                description: 'Являются наиболее общей формой облаков верхнего яруса.',
+                height: '7-10 км в умеренных широтах',
+                backgroundImage: cirrusFibratus,
                 content: (
-                    <View>
-
-                    </View>
+                    <CirrusFibratus />
                 )
             },
             {

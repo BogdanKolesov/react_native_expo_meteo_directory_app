@@ -1,5 +1,5 @@
 import { useNavigation } from '@react-navigation/native';
-import React, { useEffect } from 'react';
+import React from 'react';
 
 import {
     DarkBackground,
@@ -26,9 +26,18 @@ const DirectoryLink = ({ data, big }) => {
                 <DirectoryLinkTitle>
                     {data.title}
                 </DirectoryLinkTitle>
-                <DirectoryLinkDescription>
-                    {data.description}
-                </DirectoryLinkDescription>
+                {data.height ? (
+                    <DirectoryLinkDescription>
+                        Высота: {data.height}
+                    </DirectoryLinkDescription>
+                ) : null}
+                {
+                    data.description ?
+                        (<DirectoryLinkDescription>
+                            {data.description}
+                        </DirectoryLinkDescription>)
+                        : null
+                }
             </DirectoryLinkText>
         </DirectoryLinkContainer>
     );

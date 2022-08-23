@@ -1,18 +1,23 @@
-import { Paragraph } from "../../components/atoms";
+import { Paragraph, Picture } from "../../components/atoms";
+import { cumuloNimbus } from "../../constants/images";
 
 export const frontsData = [
     {
         title: 'Холодный фронт',
-        link: 'coldFront',
+        link: 'ArticleView',
         content: (<Paragraph>Hello, world!d</Paragraph>)
     },
     {
         title: 'Тёплый фронт',
-        link: 'coldFront'
+        link: 'ArticleView',
+        content: (<Paragraph>Hello, world!d</Paragraph>)
     },
     {
         title: 'Фронт окклюзии',
-        link: 'coldFront'
+        link: 'ArticleView',
+        content: (<>
+
+            <Paragraph>XYZ</Paragraph><Picture source={cumuloNimbus} /></>)
     }
 ]
 

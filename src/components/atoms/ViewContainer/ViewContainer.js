@@ -6,7 +6,8 @@ import { Container } from './ViewContainer.styles';
 const ViewContainer = ({ children }) => {
     return (
         <Container contentContainerStyle={{
-            flexDirection: 'column'
+            flexDirection: 'column',
+            paddingBottom: 40
         }}>
             <DevLogo />
             {children}

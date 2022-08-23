@@ -16,6 +16,7 @@ import cumuloNimbus from '../assets/images/cloudAtlas/cumuloNimbus.jpg'
 import dove from '../assets/images/directoryData/dove.jpg'
 import codes from '../assets/images/directoryData/codes.jpg'
 
+import cirrusFibratus from '../assets/images/cloudAtlas/height/cirrusFibratus.jpg'
 
 
 export {
@@ -35,5 +36,6 @@ export {
     altoStratus,
     cumuloNimbus,
     dove,
-    codes
+    codes,
+    cirrusFibratus
 }
