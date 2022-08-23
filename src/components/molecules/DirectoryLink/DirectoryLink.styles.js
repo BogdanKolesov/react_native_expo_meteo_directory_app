@@ -4,7 +4,7 @@ import { TouchableOpacity, Image, Text, View } from 'react-native';
 export const DirectoryLinkContainer = styled(TouchableOpacity)`
     flex-direction: column;
     width: 100%;
-    height: 80px;
+    height: ${props => props.big ? '160px' : '80px'};
     border-top-left-radius: 10px;
     border-bottom-right-radius: 10px;
     position: relative;

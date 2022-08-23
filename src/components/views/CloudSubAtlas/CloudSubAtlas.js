@@ -3,18 +3,19 @@ import { View, StatusBar, Text } from 'react-native';
 import { ViewContainer, ViewTitle } from '../../atoms';
 import { cloudAtlasData } from '../../../data/itemLinkData/cloudAtlasData';
 import { DirectoryLink } from '../../molecules';
+import { useRoute } from '@react-navigation/native';
 
-const CloudAtlas = () => {
-
+const CloudSubAtlas = ({ route }) => {
+    const { title, items } = route.params
     return (
         <View>
             <StatusBar />
             <ViewContainer>
-                <ViewTitle>Атлас Облаков</ViewTitle>
+                <ViewTitle>{title}</ViewTitle>
                 {
-                    cloudAtlasData.map((data, index) => {
+                    items.map((item, index) => {
                         return (
-                            <DirectoryLink key={index} data={data} />
+                            <DirectoryLink big key={index} data={item} />
                         )
                     })
                 }
@@ -24,4 +25,4 @@ const CloudAtlas = () => {
 }
 
 
-export default CloudAtlas;
+export default CloudSubAtlas;

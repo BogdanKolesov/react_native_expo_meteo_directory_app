@@ -10,13 +10,14 @@ import {
     DirectoryLinkTitle
 } from './DirectoryLink.styles';
 
-const DirectoryLink = ({ data }) => {
+const DirectoryLink = ({ data, big }) => {
 
     const navigation = useNavigation()
 
 
     return (
         <DirectoryLinkContainer
+            big={big}
             activeOpacity={0.6}
             onPress={() => navigation.navigate(data.link, { items: data.items, title: data.title, content: data.content })}>
             <DirectoryLinkBackgroundImage source={data.backgroundImage} />

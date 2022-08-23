@@ -13,6 +13,8 @@ import fog from '../assets/images/cloudAtlas/fog.jpg'
 import altoStratus from '../assets/images/cloudAtlas/altoStratus.jpg'
 import forecastClouds from '../assets/images/cloudAtlas/forecastClouds.jpg'
 import cumuloNimbus from '../assets/images/cloudAtlas/cumuloNimbus.jpg'
+import dove from '../assets/images/directoryData/dove.jpg'
+import codes from '../assets/images/directoryData/codes.jpg'
 
 
 
@@ -31,5 +33,7 @@ export {
     fog,
     forecastClouds,
     altoStratus,
-    cumuloNimbus
+    cumuloNimbus,
+    dove,
+    codes
 }
