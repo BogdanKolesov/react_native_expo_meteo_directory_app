@@ -10,24 +10,25 @@ export const commonDirectoryData = [
         link: 'CloudAtlas',
         backgroundImage: cloudAtlas
     },
-    {
-        title: 'Орнитологический атлас',
-        description: 'Пособие для определения вида птиц',
-        link: 'NotExist',
-        items: synoptikLinkData,
-        backgroundImage: dove
-    },
+    // {
+    //     title: 'Орнитологический атлас',
+    //     description: 'Пособие для определения вида птиц',
+    //     link: 'NotExist',
+    //     items: synoptikLinkData,
+    //     backgroundImage: dove
+    // },
     {
         title: 'Технические средства метеослужбы',
         description: 'Термометры, гигрометры, барометры и тд.',
         link: 'ItemLinkView',
         items: meteoTechData,
         backgroundImage: meteo
-    }, {
-        title: 'Метеорологические коды',
-        description: 'КН-01, КН-04, METAR, TAF, КМИ-85 и тд.',
-        link: 'ItemLinkView',
-        items: synoptikLinkData,
-        backgroundImage: codes
-    }
+    },
+    //  {
+    //     title: 'Метеорологические коды',
+    //     description: 'КН-01, КН-04, METAR, TAF, КМИ-85 и тд.',
+    //     link: 'ItemLinkView',
+    //     items: synoptikLinkData,
+    //     backgroundImage: codes
+    // }
 ]

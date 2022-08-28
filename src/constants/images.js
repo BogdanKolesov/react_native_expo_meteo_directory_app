@@ -58,6 +58,22 @@ import occlusionFront from '../assets/images/directoryData/synoptic/fronts/occlu
 import secondFront from '../assets/images/directoryData/synoptic/fronts/secondFront.jpg'
 import tgc11 from '../assets/images/common/meteoTech/termogigrometers/tgc1-1.jpg'
 import tgc12 from '../assets/images/common/meteoTech/termogigrometers/tgc1-2.jpg'
+import tgba1 from '../assets/images/common/meteoTech/termogigrometers/tgba1.jpg'
+import tgba12 from '../assets/images/common/meteoTech/termogigrometers/tgba12.jpg'
+import bcm1 from '../assets/images/common/meteoTech/barometres/bcm1.jpg'
+import md20 from '../assets/images/common/meteoTech/barometres/md20.png'
+import md201 from '../assets/images/common/meteoTech/barometres/md20-1.jpg'
+import m110 from '../assets/images/common/meteoTech/barometres/m110.png'
+import m1101 from '../assets/images/common/meteoTech/barometres/m1101.jpg'
+import ipvu1 from '../assets/images/common/meteoTech/wind/ipvu1.jpg'
+import ipvu12 from '../assets/images/common/meteoTech/wind/ipvu12.jpg'
+import ipvd1 from '../assets/images/common/meteoTech/wind/ipvd.jpg'
+import dvo2 from '../assets/images/common/meteoTech/vngo/dvo.jpg'
+import ivo1m from '../assets/images/common/meteoTech/vngo/ivo.jpg'
+import lingom2 from '../assets/images/common/meteoTech/vngo/lingom2.jpg'
+import fi31 from '../assets/images/common/meteoTech/mdv/fi31.jpg'
+import fi32 from '../assets/images/common/meteoTech/mdv/fi312.jpg'
+import o3 from '../assets/images/common/meteoTech/osadkomer/o3.jpg'
 
 
 
@@ -115,4 +131,20 @@ export {
     secondFront,
     tgc11,
     tgc12,
+    tgba1,
+    tgba12,
+    bcm1,
+    md20,
+    md201,
+    m110,
+    m1101,
+    ipvu1,
+    ipvu12,
+    ipvd1,
+    dvo2,
+    ivo1m,
+    lingom2,
+    fi31,
+    fi32,
+    o3,
 }

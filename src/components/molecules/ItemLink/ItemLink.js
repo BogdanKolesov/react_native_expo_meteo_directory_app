@@ -9,7 +9,7 @@ const ItemLink = ({ item }) => {
     return (
         <ItemLinkContainer
             activeOpacity={0.5}
-            onPress={() => navigation.navigate(item.link, { title: item.title, content: item.content })}
+            onPress={() => navigation.navigate(item.link, { title: item.title, content: item.content, items: item.items })}
         >
             <ItemLinkTitle>
                 {item.title}

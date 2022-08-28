@@ -1,45 +1,53 @@
+import { PreasureTend, Presure, Temperature, Visibility, Wet, Wind } from "../contentData/observerContentData/meteoItemsData"
+import { Blizzard, DustStorm, Fog } from "../contentData/observerContentData/phenomenonContentData"
+
 export const meteoItemsData = [
     {
         title: 'Температура',
-        link: 'coldFront'
+        link: 'ArticleView',
+        content: (<Temperature />)
     },
     {
         title: 'Влажность',
-        link: 'coldFront'
+        link: 'ArticleView',
+        content: (<Wet />)
     },
     {
-        title: 'Точка росы',
-        link: 'coldFront'
+        title: 'Атмосферное давление',
+        link: 'ArticleView',
+        content: (<Presure />)
     },
     {
-        title: 'Давление',
-        link: 'coldFront'
+        title: 'Барическая тенденция',
+        link: 'ArticleView',
+        content: (<PreasureTend />)
     },
     {
         title: 'Скорость и направление ветра',
-        link: 'coldFront'
+        link: 'ArticleView',
+        content: (<Wind />)
     },
     {
         title: 'Видимость',
-        link: 'coldFront'
+        link: 'ArticleView',
+        content: (<Visibility />)
     }
 ]
 
 export const meteoPhenomenonData = [
     {
-        title: 'Осадки',
-        link: 'coldFront'
+        title: 'Туман и дымка',
+        link: 'ArticleView',
+        content: (<Fog />)
     },
     {
-        title: 'Явления, ухудшающие видимость',
-        link: 'coldFront'
+        title: 'Метель и позёмок',
+        link: 'ArticleView',
+        content: (<Blizzard />)
     },
     {
-        title: 'Опасные явления погоды (ОЯП)',
-        link: 'coldFront'
+        title: 'Пыльная и песчаная буря',
+        link: 'ArticleView',
+        content: (<DustStorm />)
     },
-    {
-        title: 'Оптические явления погоды',
-        link: 'coldFront'
-    }
 ]
