@@ -1,10 +1,10 @@
 import { Paragraph, Picture } from "../../../components/atoms"
-import { cirrusFibratus } from "../../../constants/images"
+import { altoCumulus, altoCumulusFloccus, altoCumulusLenticularis, altoCumulusTranslucidus, altoStratusOpacus, altoStratusTranslucidus, cirrusFibratus } from "../../../constants/images"
 
 export const AltoCumulusFloccus = () => {
     return (
         <>
-            <Picture source={cirrusFibratus} />
+            <Picture source={altoCumulusFloccus} />
             <Paragraph>
                 Высоко - кучевые хлопьевидные - Altocumulus floccus (Ac fl) - представляют собой белые разорванные по краям хлопья облаков, сравнительно быстро меняющие свои очертания. Образуются на высоте 2-6 км за счет конвективного движения воздуха в слое выше 2 км. Осадки могут выпадать в виде отдельных капель или снежинок. В отличие от перисто-кучевых облаков они могут иметь затененные части, которые, как правило, состоят из водяных капелек.             </Paragraph>
             <Paragraph>
@@ -17,7 +17,7 @@ export const AltoCumulusFloccus = () => {
 export const AltoStratusTranlucidus = () => {
     return (
         <>
-            <Picture source={cirrusFibratus} />
+            <Picture source={altoStratusTranslucidus} />
             <Paragraph>
                 Высоко-слоистые просвечивающие - Altostratus translucidus (As trans)
                 Волнитсая структура облака заметна, солнечный круг солнца вполне различим. На земле иногда могут возникать вполне различимые тени. Отчетливо видны полосы, Пелена облаков, как правило, постепенно закрывает все небо. Высота основание в пределах 3-5 км, толщина слоя облаков Ac trans в среднем коло 1 км, изредка до 2 км. Осадки выпадают, но в южных и средних широтах летом редко достигают земли.
@@ -29,7 +29,7 @@ export const AltoStratusTranlucidus = () => {
 export const AltoCumulus = () => {
     return (
         <>
-            <Picture source={cirrusFibratus} />
+            <Picture source={altoCumulus} />
             <Paragraph>
                 Высоко-кучевые облака Altocumulus (Ac) -типичная облачность для теплого сезона. Располагается, как правило, над склонами, обращенными к солнцу. Иногда достигают стадии мощных кучевых облаков.
             </Paragraph>
@@ -43,7 +43,7 @@ export const AltoCumulus = () => {
 export const AltoCumulusLenticularis = () => {
     return (
         <>
-            <Picture source={cirrusFibratus} />
+            <Picture source={altoCumulusLenticularis} />
             <Paragraph>
                 Высоко-кучевые чечевицеобразные - Altocumulus lenticularis (Aс lent) - отдельные довольно плотные облака чечевицеобразной или сигарообразной формы с гладкими очертаниями и волнистой каймой. Образуются на высоте 2-6 км. Осадки могут выпадать в виде отдельных капель или снежинок. В отличие от перисто-кучевых облаков они могут иметь затененные части, которые, как правило, состоят из водяных капелек.
             </Paragraph>
@@ -57,7 +57,7 @@ export const AltoCumulusLenticularis = () => {
 export const AltoCumulusTranslucidus = () => {
     return (
         <>
-            <Picture source={cirrusFibratus} />
+            <Picture source={altoCumulusTranslucidus} />
             <Paragraph>
                 Высоко-кучевые просвечивающие - Altocumulus translucidus (Ac trans). Обычно состоят из резко разграниченных элементов ( волн, пластин), характеризуются неоднородной плотностью Плотные участки серого цвета чередуются с тонкими, более освещенными частями прозрачно-белого цвета. В тонких частях через облака могут просвечивать небесные светила или голубое небо. Образуются на высоте 2-6 км. Осадки могут выпадать в виде отдельных капель или снежинок.             </Paragraph>
             <Paragraph>
@@ -69,7 +69,7 @@ export const AltoCumulusTranslucidus = () => {
 export const AltoStratusOpacus = () => {
     return (
         <>
-            <Picture source={cirrusFibratus} />
+            <Picture source={altoStratusOpacus} />
             <Paragraph>
                 Высоко-слоистые непросвечивающие - Altostratus opacus (As op)
                 Преставляют собой однородный покров серого цвета, часто переменной плотности, что отмечается по степени их освещенности ( местами облака темнее, местами светлее). Через эти облака солнце и луна не просвечивают, но местоположение их можно определить по расплявчатому светлому пятну на облаках. Образуются на высоте 3-5 км в виде пелены светло-серого или синеватого цвета, в которой можно различить полосы или волокна. Они почти всегда сменяют перисто-слоистые.

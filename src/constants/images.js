@@ -20,6 +20,7 @@ import codes from '../assets/images/directoryData/codes.jpg'
 import cirrusFibratus from '../assets/images/cloudAtlas/height/cirrusFibratus.jpg'
 import cirroCumulusUndulatus from '../assets/images/cloudAtlas/height/cirroCumulusUndulatus.jpg'
 import cirroStratusFibratus from '../assets/images/cloudAtlas/height/cirroStratusFibratus.jpg'
+import cirroStratusFibr from '../assets/images/cloudAtlas/height/cirroStratusFibr.jpg'
 import cirrusIntortus from '../assets/images/cloudAtlas/height/cirrusIntortus.jpg'
 import cirrusIntortusNebulosus from '../assets/images/cloudAtlas/height/cirrusIntortusNebulosus.jpg'
 import cirrusSpissatus from '../assets/images/cloudAtlas/height/cirrusSpissatus.jpg'
@@ -34,6 +35,8 @@ import altoCumulusTranslucidus from '../assets/images/cloudAtlas/middle/altoCumu
 import altoStratusOpacus from '../assets/images/cloudAtlas/middle/altoStratusOpacus.jpg'
 import altoStratusTranslucidus from '../assets/images/cloudAtlas/middle/altoStratusTranslucidus.jpg'
 import cumulusHumilis from '../assets/images/cloudAtlas/middle/cumulusHumilis.jpg'
+import altoCumulusAtlas from '../assets/images/cloudAtlas/middle/altoCumulus.jpg'
+
 //Облака нижнего яруса
 import fractoNimbus from '../assets/images/cloudAtlas/low/fractoNimbus.jpg'
 import orographClouds from '../assets/images/cloudAtlas/low/orographClouds.jpg'
@@ -47,6 +50,9 @@ import stratusUndulatus from '../assets/images/cloudAtlas/low/stratusUndulatus.j
 import cumuloNimbusAtlas from '../assets/images/cloudAtlas/vertical/cumuloNimbus.jpg'
 import cumulusCongestus from '../assets/images/cloudAtlas/vertical/cumulusCongestus.jpg'
 import cumulusMediocris from '../assets/images/cloudAtlas/vertical/cumulusMediocris.jpg'
+//фронта
+import warmFront from '../assets/images/directoryData/synoptic/fronts/warmFront.jpg'
+
 
 
 export {
@@ -76,6 +82,7 @@ export {
     cirrusTraktus,
     cirrusUncinus,
     cirrusVertebratus,
+    cirroStratusFibr,
     cirroCumulusCumuliformis,
     altoCumulusFloccus,
     altoCumulusLenticularis,
@@ -94,4 +101,6 @@ export {
     cumuloNimbusAtlas,
     cumulusCongestus,
     cumulusMediocris,
+    altoCumulusAtlas,
+    warmFront
 }
