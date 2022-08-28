@@ -1,5 +1,5 @@
-import { PreasureTend, Presure, Temperature, Visibility, Wet, Wind } from "../contentData/observerContentData/meteoItemsData"
-import { Blizzard, DustStorm, Fog } from "../contentData/observerContentData/phenomenonContentData"
+import { FireDanger, PreasureTend, Presure, Temperature, Visibility, Wet, Wind } from "../contentData/observerContentData/meteoItemsData"
+import { Blizzard, DustStorm, Fog, Hail, Iceing, Squall, Thunderstorm } from "../contentData/observerContentData/phenomenonContentData"
 
 export const meteoItemsData = [
     {
@@ -31,6 +31,11 @@ export const meteoItemsData = [
         title: 'Видимость',
         link: 'ArticleView',
         content: (<Visibility />)
+    },
+    {
+        title: 'Коэффициент пожароопасности',
+        link: 'ArticleView',
+        content: (<FireDanger />)
     }
 ]
 
@@ -49,5 +54,30 @@ export const meteoPhenomenonData = [
         title: 'Пыльная и песчаная буря',
         link: 'ArticleView',
         content: (<DustStorm />)
+    },
+    {
+        title: 'Грозы',
+        link: 'ArticleView',
+        content: (<Thunderstorm />)
+    },
+    {
+        title: 'Грозы',
+        link: 'ArticleView',
+        content: (<Thunderstorm />)
+    },
+    {
+        title: 'Град',
+        link: 'ArticleView',
+        content: (<Hail />)
+    },
+    {
+        title: 'Шквал',
+        link: 'ArticleView',
+        content: (<Squall />)
+    },
+    {
+        title: 'Обледенение',
+        link: 'ArticleView',
+        content: (<Iceing />)
     },
 ]

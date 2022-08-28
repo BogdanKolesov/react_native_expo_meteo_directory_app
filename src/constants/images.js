@@ -74,6 +74,10 @@ import lingom2 from '../assets/images/common/meteoTech/vngo/lingom2.jpg'
 import fi31 from '../assets/images/common/meteoTech/mdv/fi31.jpg'
 import fi32 from '../assets/images/common/meteoTech/mdv/fi312.jpg'
 import o3 from '../assets/images/common/meteoTech/osadkomer/o3.jpg'
+import kpo1 from '../assets/images/observer/kpo.jpg'
+import kpo2 from '../assets/images/observer/kpo2.jpg'
+import zyclon from '../assets/images/directoryData/synoptic/fronts/zyclon.jpg'
+import antizyclon from '../assets/images/directoryData/synoptic/fronts/antiziclon.jpg'
 
 
 
@@ -147,4 +151,8 @@ export {
     fi31,
     fi32,
     o3,
+    kpo1,
+    kpo2,
+    zyclon,
+    antizyclon
 }

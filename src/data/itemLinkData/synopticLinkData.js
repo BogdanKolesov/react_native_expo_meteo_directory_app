@@ -1,6 +1,7 @@
 import { Paragraph, Picture } from "../../components/atoms";
 import { cumuloNimbus } from "../../constants/images";
 import { ColdFrontOne, ColdFrontTwo, HeightFront, OcclusionFront, SecondFront, WarmFront } from "../contentData/synopticContentData/frontData";
+import { Antizyclon, Ziclon } from "../contentData/synopticContentData/synopticObjectsData";
 
 export const frontsData = [
     {
@@ -38,24 +39,26 @@ export const frontsData = [
 export const synopticItemsData = [
     {
         title: 'Циклон',
-        link: 'coldFront'
+        link: 'ArticleView',
+        content: (<Ziclon />)
     },
-    {
-        title: 'Барическая ложбина',
-        link: 'coldFront'
-    },
+    // {
+    //     title: 'Барическая ложбина',
+    //     link: 'coldFront'
+    // },
     {
         title: 'Антициклон',
-        link: 'coldFront'
+        link: 'ArticleView',
+        content: (<Antizyclon />)
     },
-    {
-        title: 'Гребень антициклона',
-        link: 'coldFront'
-    },
-    {
-        title: 'Седловина',
-        link: 'coldFront'
-    }
+    // {
+    //     title: 'Гребень антициклона',
+    //     link: 'coldFront'
+    // },
+    // {
+    //     title: 'Седловина',
+    //     link: 'coldFront'
+    // }
 ]
 
 export const forecastsData = [
