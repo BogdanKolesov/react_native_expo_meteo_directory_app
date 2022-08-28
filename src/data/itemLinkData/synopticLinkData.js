@@ -1,6 +1,6 @@
 import { Paragraph, Picture } from "../../components/atoms";
 import { cumuloNimbus } from "../../constants/images";
-import { WarmFront } from "../contentData/synopticContentData/frontData";
+import { ColdFrontOne, ColdFrontTwo, HeightFront, OcclusionFront, SecondFront, WarmFront } from "../contentData/synopticContentData/frontData";
 
 export const frontsData = [
     {
@@ -11,22 +11,27 @@ export const frontsData = [
     {
         title: 'Холодный фронт 1-го рода',
         link: 'ArticleView',
-        content: (<Paragraph>Hello, world!d</Paragraph>)
+        content: (<ColdFrontOne />)
     },
     {
         title: 'Холодный фронт 2-го рода',
         link: 'ArticleView',
-        content: (<Paragraph>Hello, world!d</Paragraph>)
+        content: (<ColdFrontTwo />)
     },
     {
         title: 'Фронт окклюзии',
         link: 'ArticleView',
-        content: (<></>)
+        content: (<OcclusionFront />)
     },
     {
         title: 'Вторичный фронт',
         link: 'ArticleView',
-        content: (<Paragraph>Hello, world!d</Paragraph>)
+        content: (<SecondFront />)
+    },
+    {
+        title: 'Высотный фронт',
+        link: 'ArticleView',
+        content: (<HeightFront />)
     },
 ]
 

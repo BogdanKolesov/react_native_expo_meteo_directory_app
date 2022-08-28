@@ -1,14 +1,46 @@
-export const synoptikLinkData = [
+import { Tgc1 } from "../contentData/commonContentData/meteoTech";
+
+
+export const meteoTechData = [
     {
-        title: 'Холодный фронт',
-        link: 'coldFront'
+        title: 'Термометры и гигрометры',
+        link: 'ItemLinkView',
+        items: [
+            {
+                title: 'ТГЦ-1',
+                link: 'ArticleView',
+                content: (<Tgc1 />)
+            }
+        ],
     },
     {
-        title: 'Тёплый фронт',
-        link: 'coldFront'
+        title: 'Барометры',
+        link: 'ItemLinkView',
+        // items: synopticItemsData,
     },
     {
-        title: 'Фронт окклюзии',
-        link: 'coldFront'
-    }
+        title: 'Измерители параметров ветра',
+        link: 'ItemLinkView',
+        // items: synopticItemsData,
+    },
+    {
+        title: 'Измерители ВНГО',
+        link: 'ItemLinkView',
+        // items: synopticItemsData,
+    },
+    {
+        title: 'Измерители МДВ',
+        link: 'ItemLinkView',
+        // items: synopticItemsData,
+    },
+    {
+        title: 'Метеорологические локаторы',
+        link: 'ItemLinkView',
+        // items: synopticItemsData,
+    },
+    {
+        title: 'Подвижные метеорологические станции',
+        link: 'ItemLinkView',
+        // items: synopticItemsData,
+    },
 ]

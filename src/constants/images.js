@@ -50,8 +50,14 @@ import stratusUndulatus from '../assets/images/cloudAtlas/low/stratusUndulatus.j
 import cumuloNimbusAtlas from '../assets/images/cloudAtlas/vertical/cumuloNimbus.jpg'
 import cumulusCongestus from '../assets/images/cloudAtlas/vertical/cumulusCongestus.jpg'
 import cumulusMediocris from '../assets/images/cloudAtlas/vertical/cumulusMediocris.jpg'
-//фронта
+//фронты
 import warmFront from '../assets/images/directoryData/synoptic/fronts/warmFront.jpg'
+import coldFrontOne from '../assets/images/directoryData/synoptic/fronts/coldFrontOne.jpg'
+import coldFrontTwo from '../assets/images/directoryData/synoptic/fronts/coldFrontTwo.jpg'
+import occlusionFront from '../assets/images/directoryData/synoptic/fronts/occlusion.jpg'
+import secondFront from '../assets/images/directoryData/synoptic/fronts/secondFront.jpg'
+import tgc11 from '../assets/images/common/meteoTech/termogigrometers/tgc1-1.jpg'
+import tgc12 from '../assets/images/common/meteoTech/termogigrometers/tgc1-2.jpg'
 
 
 
@@ -102,5 +108,11 @@ export {
     cumulusCongestus,
     cumulusMediocris,
     altoCumulusAtlas,
-    warmFront
+    warmFront,
+    coldFrontOne,
+    coldFrontTwo,
+    occlusionFront,
+    secondFront,
+    tgc11,
+    tgc12,
 }
