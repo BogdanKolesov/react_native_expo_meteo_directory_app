@@ -1,8 +1,8 @@
 import { View } from "react-native";
 import { Paragraph, Picture } from "../../components/atoms";
-import { altoCumulus, altoCumulusAtlas, altoCumulusFloccus, altoCumulusLenticularis, altoCumulusTranslucidus, altoStratusOpacus, altoStratusTranslucidus, cirroCumulusCumuliformis, cirroCumulusUndulatus, cirroStratusFibr, cirroStratusFibratus, cirrus, cirrusFibratus, cirrusIntortus, cirrusIntortusNebulosus, cirrusSpissatus, cirrusTraktus, cirrusUncinus, cirrusVertebratus, cumuloNimbus, cumuloNimbusAtlas, cumulusCongestus, cumulusHumilis, cumulusMediocris, fog, forecastClouds, fractoNimbus, meteo, orographClouds, stratoCumulusDiurnalis, stratoCumulusOpacus, stratoCumulusTranslucidus, stratuCumulusVesperalis, stratusNebulosus } from "../../constants/images";
+import { altoCumulus, altoCumulusAtlas, altoCumulusFloccus, altoCumulusLenticularis, altoCumulusTranslucidus, altoStratusOpacus, altoStratusTranslucidus, cirroCumulusCumuliformis, cirroCumulusUndulatus, cirroStratusFibr, cirroStratusFibratus, cirrus, cirrusFibratus, cirrusIntortus, cirrusIntortusNebulosus, cirrusSpissatus, cirrusTraktus, cirrusUncinus, cirrusVertebratus, cumuloNimbus, cumuloNimbusAtlas, cumulusCongestus, cumulusHumilis, cumulusMediocris, fog, forecastClouds, fractoNimbus, meteo, orographClouds, stratoCumulusDiurnalis, stratoCumulusOpacus, stratoCumulusTranslucidus, stratuCumulusVesperalis, stratusNebulosus, stratusUndulatus } from "../../constants/images";
 import { CirroCumulusCumuliformis, CirroCumulusUndulatus, CirroStratusFibr, CirroStratusFibratus, CirroStratusNebulosus, CirrusFibratus, CirrusIntortus, CirrusSpissatus, CirrusTraktus, CirrusUncinus, CirrusVertebratus } from "../contentData/cloudContentData/heightClouds";
-import { CumulusHumilis, FractoNimbus, OrographClouds, StratoCumulusDiurnalis, StratoCumulusOpacus, StratoCumulusTransludius, StratoCumulusVesperalis, StratusNebulosus } from "../contentData/cloudContentData/lowClouds";
+import { CumulusHumilis, FractoNimbus, OrographClouds, StratoCumulusDiurnalis, StratoCumulusOpacus, StratoCumulusTransludius, StratoCumulusVesperalis, StratusNebulosus, StratusUndulatus } from "../contentData/cloudContentData/lowClouds";
 import { AltoCumulus, AltoCumulusFloccus, AltoCumulusLenticularis, AltoCumulusTranslucidus, AltoStratusOpacus, AltoStratusTranlucidus } from "../contentData/cloudContentData/middleClouds";
 import { CumuloNumbus, CumulusCongestus, CumulusMediocris } from "../contentData/cloudContentData/verticalClouds";
 
@@ -259,7 +259,7 @@ export const cloudAtlasData = [
                 )
             },
             {
-                title: 'Слоисто-кучевые просвечивающие облака - Stratocumulus translucidus (Sc trans)',
+                title: 'Кучевые плоские Сumulus humilis (Cu hum)',
                 link: 'ArticleView',
                 description: 'Наличие Cu hum говорит об установившейся хорошей погоде и облака называются "облаками хорошей погоды".',
                 height: 'ниже 2 км',
@@ -283,9 +283,9 @@ export const cloudAtlasData = [
                 link: 'ArticleView',
                 description: 'Образуются преимущественно внутри однородной воздушной массы.',
                 height: '200-700м',
-                backgroundImage: stratoCumulusOpacus,
+                backgroundImage: stratusUndulatus,
                 content: (
-                    <StratoCumulusOpacus />
+                    <StratusUndulatus />
                 )
             },
         ]
